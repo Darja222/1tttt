@@ -1,3 +1,11 @@
+/* klassi nimejärgi
+.klassinimi {}
+
+id nime järgi
+#id_nimi {}
+
+tag järgi 
+p {} */
 
 .header {
   background-image: url("../image/taust2.jpg");
@@ -6,32 +14,39 @@
   align-items: center;
   justify-content: center;
 }
+
 .main-title {
   font-weight: 46px;
+  
 }
+
 .navigation {
-font-size: 24px;
+  font-size: 24px;
 }
-em {
-  color: rgb(249, 93, 197);
-  font-style: normal;
-}
-img {
+section {
   display: grid;
-  grid-template-columns: max-content auto;
-  border: 1px solid grey;
-  border-radius: 10px;
-  padding: 10px;
-  grid-gap: 20px;
-  width: 150px;
-  height: 150px;
-  align-items: center;
-  border-radius: 100px;
-  float: left;
-  margin-right: 10px;
-  object-fit: cover;
-  grid-row: 1 / span 2
 }
-div {
-  unicode-bidi: isolate;
+
+img {
+  border-radius: 10px;
+  margin: 3px;
+  width: 500px;
+  height: 100px;
+  object-fit: cover;
+  grid-row: 1 / span 2; /*ei pruugi töötada */
+}
+
+body {
+  background-color: rgb(48, 46, 50);
+  font-family:courier;
+}
+h1, h2 {
+font-family: verdana;
+}
+
+main {
+  background-color: rgb(184, 185, 185);
+}
+header {
+  background-color: beige;
 }
